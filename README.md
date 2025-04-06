@@ -36,14 +36,14 @@ A location intelligence web application that helps users explore geographic and 
     The backend should be running at `http://localhost:8000` and the frontend at `http://localhost:3000`.
 
 4. **Without Docker**:
-    - **Backend:**
+    - **Backend:**:
     ```
     cd backend
     pip install -r requirements.txt
     uvicorn main:app --host 0.0.0.0 --port 8000
     ```
 
-    - **Frontend:**
+    - **Frontend:**:
     ```
     cd frontend
     yarn install
